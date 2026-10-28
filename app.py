@@ -204,12 +204,12 @@ st.markdown("""
   <p>Pilih ruas jalan, jalankan simulasi, dan amati perubahan konektivitas jaringan secara interaktif.</p>
 </div>
 """, unsafe_allow_html=True)
-<p style="color:#CBD5E1;">
-    Dibuat oleh: Barorotul Karomah<br>
-    NIM: 240601110013<br>
-    Program Studi Matematika<br>
-    UIN Maulana Malik Ibrahim Malang
-</p>
+  <p style="color:#CBD5E1;">
+      Dibuat oleh: Barorotul Karomah<br>
+      NIM: 240601110013<br>
+      Program Studi Matematika<br>
+      UIN Maulana Malik Ibrahim Malang
+  </p>
 
 # Sidebar controls
 st.sidebar.title("⚙️ Pengaturan Simulator")
