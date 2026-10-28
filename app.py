@@ -369,7 +369,7 @@ with info_col:
           <div class="small-note">Komponen sebelum</div>
           <h2 style="margin:4px 0;color:#71304F;">{len(components_before)}</h2>
           <div class="small-note">Komponen sesudah</div>
-          <h2 style="margin:4px 0;color:#38BDF8;">{len(components_after)}</h2>
+          <h2 style="margin:4px 0;color:#71304F;">{len(components_after)}</h2>
           <div class="small-note">Ukuran komponen: {sizes_after}</div>
         </div>
         """, unsafe_allow_html=True)
