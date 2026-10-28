@@ -204,7 +204,6 @@ st.markdown("""
   <p>Pilih ruas jalan, jalankan simulasi, dan amati perubahan konektivitas jaringan secara interaktif.</p>
 </div>
 """, unsafe_allow_html=True)
-
 <p style="color:#CBD5E1;">
     Dibuat oleh: Barorotul Karomah<br>
     NIM: 240601110013<br>
