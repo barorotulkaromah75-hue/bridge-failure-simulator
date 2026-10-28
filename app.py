@@ -206,8 +206,7 @@ st.markdown("""
   <p>Pilih ruas jalan, jalankan simulasi, dan amati perubahan konektivitas jaringan secara interaktif.</p>
 
   <p style="color:#CBD5E1;">
-      Dibuat oleh: Barorotul Karomah<br>
-      NIM: 240601110013<br>
+      Created by Barorotul Karomah - 240601110013<br>
       Program Studi Matematika<br>
       UIN Maulana Malik Ibrahim Malang
   </p>
