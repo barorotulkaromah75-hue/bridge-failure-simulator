@@ -259,7 +259,7 @@ with kanan:
 
 st.caption(
     "Setiap warna menunjukkan komponen terhubung yang berbeda "
-    setelah ruas jalan ditutup."
+    setelah ruas jalan ditutup.
 )
 
 st.divider()
