@@ -200,16 +200,19 @@ section[data-testid="stSidebar"] {background: #111827;}
 st.markdown("""
 <div class="hero">
   <div style="color:#38BDF8;font-weight:700;letter-spacing:1px;">🌉 BRIDGE FAILURE SIMULATOR</div>
+
   <h1>Simulasi Penutupan Jaringan Jalan</h1>
+
   <p>Pilih ruas jalan, jalankan simulasi, dan amati perubahan konektivitas jaringan secara interaktif.</p>
-</div>
-""", unsafe_allow_html=True)
+
   <p style="color:#CBD5E1;">
       Dibuat oleh: Barorotul Karomah<br>
       NIM: 240601110013<br>
       Program Studi Matematika<br>
       UIN Maulana Malik Ibrahim Malang
   </p>
+</div>
+""", unsafe_allow_html=True)
 
 # Sidebar controls
 st.sidebar.title("⚙️ Pengaturan Simulator")
