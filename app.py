@@ -358,7 +358,7 @@ with info_col:
     st.markdown(f"""
     <div class="info-card">
       <div class="small-note">Jumlah simpul</div>
-      <h2 style="margin:4px 0;color:#F8FAFC;">{G_awal.number_of_nodes()}</h2>
+      <h2 style="margin:4px 0;color:#71304F;">{G_awal.number_of_nodes()}</h2>
       <div class="small-note">Jumlah ruas: {G_awal.number_of_edges()}</div>
     </div>
     """, unsafe_allow_html=True)
