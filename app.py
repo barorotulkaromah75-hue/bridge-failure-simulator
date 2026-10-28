@@ -181,7 +181,7 @@ def make_graph_figure(H, selected=None, closed=None, title="Jaringan jalan"):
 st.markdown("""
 <style>
 [data-testid="stMetricValue"] {
-    color: #C65A89 !important;
+    color: #713D5B !important;
     font-weight: 800;
 }
 
