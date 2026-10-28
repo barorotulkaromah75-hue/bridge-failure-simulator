@@ -207,7 +207,7 @@ st.markdown("""
 
 <p style="color:#CBD5E1;">
     Dibuat oleh: Barorotul Karomah<br>
-    NIM: ISI_NIM_KAMU<br>
+    NIM: 240601110013<br>
     Program Studi Matematika<br>
     UIN Maulana Malik Ibrahim Malang
 </p>
