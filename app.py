@@ -180,6 +180,14 @@ def make_graph_figure(H, selected=None, closed=None, title="Jaringan jalan"):
 # =========================================================
 st.markdown("""
 <style>
+[data-testid="stMetricValue"] {
+    color: #C65A89 !important;
+    font-weight: 800;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #713D5B !important;
+}
 .stApp {
     background: linear-gradient(135deg, #FFF7FA, #FCEAF2, #F7EFFB);
     color: #553047;
