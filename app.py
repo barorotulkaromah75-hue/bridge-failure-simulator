@@ -180,20 +180,57 @@ def make_graph_figure(H, selected=None, closed=None, title="Jaringan jalan"):
 # =========================================================
 st.markdown("""
 <style>
-.stApp {background: #0B1220; color: #E2E8F0;}
-section[data-testid="stSidebar"] {background: #111827;}
+.stApp {
+    background: linear-gradient(135deg, #FFF7FA, #FCEAF2, #F7EFFB);
+    color: #553047;
+}
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #F7DCE8, #F2D9EF);
+}
+
+section[data-testid="stSidebar"] * {
+    color: #633B55;
+}
+
 .hero {
-  padding: 26px 30px; border: 1px solid #334155; border-radius: 18px;
-  background: linear-gradient(110deg, #10243B, #123B4B);
-  margin-bottom: 18px;
+    background: linear-gradient(110deg, #C65A89, #D982A9, #A985C7);
+    border: 1px solid #E8B8CE;
+    border-radius: 20px;
+    padding: 28px 32px;
+    box-shadow: 0 12px 30px rgba(157, 75, 119, 0.15);
 }
-.hero h1 {color: #F8FAFC; margin: 0;}
-.hero p {color: #CBD5E1; margin-bottom: 0;}
+
+.hero h1 {
+    color: white;
+}
+
+.hero p {
+    color: #FFF3F8;
+}
+
 .info-card {
-  padding: 18px; border: 1px solid #334155; border-radius: 14px;
-  background: #111C2F; margin-bottom: 12px;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid #E9C4D5;
+    border-radius: 16px;
+    padding: 18px;
 }
-.small-note {color: #94A3B8; font-size: 0.88rem;}
+
+h1, h2, h3, h4 {
+    color: #713D5B;
+}
+
+div.stButton > button {
+    background: linear-gradient(100deg, #C65A89, #A985C7);
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+div.stButton > button:hover {
+    background: linear-gradient(100deg, #AE4778, #9270B5);
+    color: white;
+}
 </style>
 """, unsafe_allow_html=True)
 
