@@ -205,6 +205,13 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+<p style="color:#CBD5E1;">
+    Dibuat oleh: Barorotul Karomah<br>
+    NIM: ISI_NIM_KAMU<br>
+    Program Studi Matematika<br>
+    UIN Maulana Malik Ibrahim Malang
+</p>
+
 # Sidebar controls
 st.sidebar.title("⚙️ Pengaturan Simulator")
 mode = st.sidebar.radio(
