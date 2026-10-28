@@ -180,13 +180,18 @@ def make_graph_figure(H, selected=None, closed=None, title="Jaringan jalan"):
 # =========================================================
 st.markdown("""
 <style>
-[data-testid="stMetricValue"] {
-    color: #713D5B !important;
-    font-weight: 800;
+/* Warna angka pada informasi jaringan */
+[data-testid="stMetricValue"],
+[data-testid="stMetricValue"] *,
+[data-testid="stMetricLabel"],
+[data-testid="stMetricLabel"] * {
+    color: #71304F !important;
+    -webkit-text-fill-color: #71304F !important;
+    opacity: 1 !important;
 }
 
-[data-testid="stMetricLabel"] {
-    color: #713D5B !important;
+[data-testid="stMetricValue"] {
+    font-weight: 800 !important;
 }
 .stApp {
     background: linear-gradient(135deg, #FFF7FA, #FCEAF2, #F7EFFB);
